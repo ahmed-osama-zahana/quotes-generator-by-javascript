@@ -1,0 +1,35 @@
+*{box-sizing: border-box;
+/* margin: 0px; */
+/* padding: 0px;*/} 
+
+@font-face {
+    font-family: tilt-warp  ;
+    src: url(./../warp/static/TiltWarp-Regular.ttf);
+} 
+h1{font-family: tilt-warp;
+font-style: italic;
+font-size: 75px;}
+
+.btn{
+    width: 250px;
+    height: 80px;
+    background-color: #db8c17;
+    color: white;
+    margin-bottom: 20px;
+}
+.btn:hover{
+    background-color:#E8D5C4;
+    color: white;
+}
+
+p{font-size: 35px;}
+
+.container{
+width: 70%;
+margin: auto;
+text-align: center;
+padding-block: 30px;
+height: 90vh;
+}
+q{font-size: 35px ;
+display: block;}
